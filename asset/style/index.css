@@ -148,11 +148,11 @@ img{
  }
  .form{
     background-color: #7286D3;
-    /* width: 430px; */
+    width: 430px;
     /* margin-right:3rem ; */
  }
  .container{
     gap: 0;
-    
+
  }
 }
