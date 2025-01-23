@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+    --primary-color : #7286D3;
+    --sedary-color : #19192C;
+    --thir-color : #D9D9D9;
+    --font-famaly : 'Poppins', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+body{
+    font-size: 10px;   
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    gap: 2rem;
+    
+}
+.image{
+    margin: 2rem;
+    flex: 1;
+    background-image: url(/asset/images/3d-hygge-young-woman-working-at-the-table-wearing-vr-glasses\ 1.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.form{
+    /* size: 100%; */
+    flex: 1;
+    /* background-color: #7286D3; */
+    width: 100%;
+
+}
+h1{
+    font-family: var(--font-famaly);
+    margin-bottom: 1rem;
+font-size: 2rem;
+font-weight: 500;
+line-height: 6rem;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: var(--sedary-color);
+}
+label{
+    font-family: var(--font-famaly);
+    font-size: 1.4rem;
+}
+input{
+    outline: none;
+    height: 100%;
+    width: 100%;
+    font-family: var(--font-famaly);
+    font-size: 1rem;
+}
+form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: solid  .1rem ;
+    border-color: var(--sedary-color);
+    width: 80%;
+    height: 2.5rem;
+    border-radius: .5rem;
+
+    padding-left: 1rem;
+}
+.fa-envelope-o{
+    color: var(--sedary-color);
+}
+.icon{
+    font-size: 1.4rem;
+}
+.forgote{
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    padding-right: 3rem;
+}
+a{
+    font-size: 1rem;
+}
+button{
+    color: white;
+    font-size: 1rem;
+    font-family: var(--font-famaly);
+    background-color: var(--primary-color);
+    border-radius: .5rem;
+    padding: .3rem .7rem;
+}
+.bouton{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.avec {
+    margin: 2rem 0;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+hr{
+    height: .07rem;
+    width: 30%;
+    background-color: var(--sedary-color);
+}
+.social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+.icon2{
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    background-color: var(--thir-color);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+img{
+    width: 95%;
+    height: 95%;
+}
+
+@media only screen and (max-width: 430px) {
+.image{
+    display: none;
+    flex: 0;
+ } 
+ h1{
+    font-size: 1.4rem;
+ }
+ .form{
+    background-color: #7286D3;
+    /* width: 430px; */
+    /* margin-right:3rem ; */
+ }
+ .container{
+    gap: 0;
+    
+ }
+}
